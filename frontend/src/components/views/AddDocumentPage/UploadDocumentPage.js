@@ -64,7 +64,7 @@ function UploadDocumentPage(props) {
     }
 
     return (
-        <div style={{backgroundColor: '#E6E6FA'}}>
+        <div data-testid="uploadDocumentPage-1" style={{backgroundColor: '#E6E6FA'}}>
         <div style={{ maxWidth: '700px', margin: '2rem auto' }}>
             <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
                 <Title level={2}> Add Document </Title>
