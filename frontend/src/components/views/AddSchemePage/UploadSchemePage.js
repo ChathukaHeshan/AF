@@ -72,7 +72,7 @@ function UploadSchemePage(props) {
     }
 
     return (
-        <div style={{backgroundColor: '#F0F8FF'}}>
+        <div data-testid="addSchemePage-1" style={{backgroundColor: '#F0F8FF'}}>
         <div style={{ maxWidth: '700px', margin: '2rem auto' }}>
             <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
                 <Title level={2}> Upload Marking Scheme </Title>
